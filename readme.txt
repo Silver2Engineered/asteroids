@@ -1,4 +1,11 @@
 Asteroids in Assembly: Instructions
+
+To open this game, please do the following:
+1. Download all files into the same directory.
+2. Ensure you have MASM installed, and double check make.bat to ensure that the file paths for MASM are correct.
+3. While in the directory you have downloaded the files into, type "make" on your command line. This will assemble the file. Don't worry if it takes a decent amount of time assembling galaxy.asm; this is normal and due to the size of the bitmap used.
+4. Once you have the executable built successfully, type "game". The game should pop up in a new window.
+
 To play this twist on Asteroids, please refer to the following guidelines:
 1. There is a flying, rotating UFO that accelerates until it hits an edge of the screen, during which it bounces back and begings to accelerate again. If this UFO hits the spaceship, the game is immediately over, but you may press the spacebar to restart.
 2. To move the spaceship, use the four arrow keys. The spacehsip moves at a constant velocity, but if it moves offscreen, it will appear seamlessly on the opposite end of the screen.
