@@ -245,7 +245,7 @@ u2:
 
 down:
 	cmp over_500, 1
-	je lc2
+	je d2
 	add spaceship_posn_y, 15
 	jmp ufo_update
 
