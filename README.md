@@ -3,7 +3,8 @@ This game is a twist on the classic game Asteroids, written entirely in IA32 ass
 
 Asteroids in Assembly: Instructions
 
-To open this game, please do the following:
+To open this game, simply download the game.exe and click on it (only works for Windows Users).
+If this does not work or you are using Wine, please do the following:
 1. Download all files into the same directory.
 2. Ensure you have MASM installed, and double check make.bat to ensure that the file paths for MASM are correct.
 3. While in the directory you have downloaded the files into, type "make" on your command line. This will assemble the file. Don't worry if it takes a decent amount of time assembling galaxy.asm; this is normal and due to the size of the bitmap used.
