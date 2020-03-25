@@ -1,13 +1,3 @@
-; #########################################################################
-;
-;   stars.asm - Assembly file for CompEng205 Assignment 1
-;   
-;   Student Name: Ariella Silver
-;
-;   NetID: ams6059
-;
-; #########################################################################
-
       .586
       .MODEL FLAT,STDCALL
       .STACK 4096
